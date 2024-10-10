@@ -1,5 +1,5 @@
 // import Swal from "sweetalert2";
-import { loadBooks } from "../app/app.js";
+import { loadBooks, loadFeaturedBooks } from "../app/app.js";
 export var userSignedIn = false;
 
 var cartCount = 0;
@@ -103,7 +103,6 @@ export function getBooks() {
   return books;
 }
 
-
 export function signIn() {
   userSignedIn = true;
   return userSignedIn;
@@ -119,7 +118,7 @@ export function addToCart() {
 }
 
 export function changePage(pageName) {
-  console.log("pageName:", pageName);
+  console.log("pageName:", pageName); //THIS NEEDS COMMENTED OUT
   if (pageName == "") {
     // $("#app").html(`<h1>home</h1>`);
     $.get("pages/home.html", (data) => {
@@ -137,11 +136,14 @@ export function changePage(pageName) {
     // $("#app").html(`<h1>${pageName}</h1>`);
     $.get(`pages/${pageName}.html`, (data) => {
       $("#app").html(data);
+
+      if (pageName == "books") {
+        loadBooks();
+      } else if (pageName == "home") {
+        loadFeaturedBooks();
+      }
     }).fail((error) => {
       pageName = "";
     });
-    if (pageName == "books") {
-      loadBooks();
-    }
   }
 }

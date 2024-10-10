@@ -16,9 +16,24 @@ export function loadBooks() {
   let books = getBooks();
   $("#bookDiv").html("");
   $.each(books, function (index, book) {
+    if (!book.featured) {
+      $("#bookDiv").append(`
+        <div class="book">
+          <h4>${book.desc}</h4>
+          <span id="p${book.id}">Buy Now!</span>
+          <p>$${book.price}</p>
+        </div>
+      `);
+    }
+  });
+}
+export function loadFeaturedBooks() {
+  let books = getBooks();
+  $("#bookDiv").html("");
+  $.each(books, function (index, book) {
     if (book.featured) {
       $("#bookDiv").append(`
-        <div class="product">
+        <div class="book">
           <h4>${book.desc}</h4>
           <span id="p${book.id}">Buy Now!</span>
           <p>$${book.price}</p>
