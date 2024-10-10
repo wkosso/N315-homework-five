@@ -21,11 +21,17 @@ nav .logo a {
   color: #587C83;
   text-decoration: none;
 }
+nav .logo img {
+  width: 40px;
+}
 nav ul {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   padding: 20px;
+}
+nav ul img {
+  width: 40px;
 }
 nav ul li {
   padding: 10px;
