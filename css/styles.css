@@ -49,3 +49,23 @@ footer {
   justify-content: space-evenly;
   background-color: red;
 }
+
+#bookDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#bookDiv .book {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#bookDiv .book .squareImg {
+  width: 100px;
+}
+#bookDiv .book .rectangleImg {
+  max-width: 100px;
+  max-height: 100px;
+}

@@ -19,9 +19,14 @@ export function loadBooks() {
     if (!book.featured) {
       $("#bookDiv").append(`
         <div class="book">
-          <h4>${book.desc}</h4>
-          <span id="p${book.id}">Buy Now!</span>
-          <p>$${book.price}</p>
+          <div class="bookImg">
+            <img class="${book.imgClass}" src="${book.img}" alt="${book.desc}"> 
+          </div>
+          <div class="bookText">
+              <h4>${book.desc}</h4>
+              <p>$${book.price}</p>
+             <span id="p${book.id}">Buy Now!</span>
+          </div>
         </div>
       `);
     }
@@ -34,6 +39,9 @@ export function loadFeaturedBooks() {
     if (book.featured) {
       $("#bookDiv").append(`
         <div class="book">
+        <div class="bookImg">
+         <img class="${book.imgClass}" src="${book.img}" alt="${book.desc}"> 
+        </div>
           <h4>${book.desc}</h4>
           <span id="p${book.id}">Buy Now!</span>
           <p>$${book.price}</p>
