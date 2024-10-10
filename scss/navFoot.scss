@@ -1,0 +1,35 @@
+nav {
+  //INSERT NAV STYLING HERE
+  .logo{
+    a {
+        color: $siteBlue;
+        text-decoration: none;
+    }
+}
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    li{
+        padding: 10px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        color: $siteBlue;
+    }
+  }
+}
+
+footer {
+  //INSERT FOOTER STYLING
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: red;
+}
