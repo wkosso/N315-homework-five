@@ -83,6 +83,9 @@ nav .links ul {
   justify-content: space-evenly;
   padding: 20px;
 }
+nav .links ul img {
+  width: 40px;
+}
 nav .links ul li {
   padding: 10px;
   text-decoration: none;
@@ -147,4 +150,24 @@ nav .links ul a {
 .footer-container .footer-icons .fa-twitter {
   color: white;
   font-size: 24px;
+}
+
+#bookDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#bookDiv .book {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#bookDiv .book .squareImg {
+  width: 100px;
+}
+#bookDiv .book .rectangleImg {
+  max-width: 100px;
+  max-height: 100px;
 }
