@@ -14,6 +14,7 @@ var books = [
     featured: true,
     img: 'assets/img/books/to-kill-a-mockingbird.jpg',
     imgClass: 'rectangleImg'
+    
   },
   {
     id: 2,
@@ -148,7 +149,7 @@ export function addToCart() {
 }
 
 export function changePage(pageName) {
-  console.log("pageName:", pageName); //THIS NEEDS COMMENTED OUT
+  //console.log("pageName:", pageName); //THIS NEEDS COMMENTED OUT
   if (pageName == "") {
     // $("#app").html(`<h1>home</h1>`);
     $.get("pages/home.html", (data) => {

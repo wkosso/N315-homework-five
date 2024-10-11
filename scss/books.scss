@@ -9,17 +9,45 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
+
+
+
+
+
+
+   //added some style to the heading
+    h4{
+        font-size: 12px;
+        font-family: segoeuiRegular;
+        font-weight: normal;
+      
+        
+    }
+
+    p{
+        font-size: 14px;
+        font-family: segoeuiBold;
+        
+        
+    }
+
     
+
+}
+    }
 
     .squareImg{
         width: 100px;
+      
     }
     .rectangleImg {
         max-width: 100px;
         max-height: 100px;
-    }
+       
     }
     
-}
+    
+
 
 

@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6, p {
   font-family: segoeuiRegular;
   src: url(../assets/fonts/segoeui.ttf);
 }
+@font-face {
+  font-family: segoeuiBold;
+  src: url(../assets/fonts/segoeuib.ttf);
+}
 nav {
   background-color: white;
   width: 100%;
@@ -164,10 +168,56 @@ nav .links ul a {
   align-items: center;
   justify-content: space-evenly;
 }
-#bookDiv .book .squareImg {
+#bookDiv .book h4 {
+  font-size: 12px;
+  font-family: segoeuiRegular;
+  font-weight: normal;
+}
+#bookDiv .book p {
+  font-size: 14px;
+  font-family: segoeuiBold;
+}
+
+.squareImg {
   width: 100px;
 }
-#bookDiv .book .rectangleImg {
+
+.rectangleImg {
   max-width: 100px;
   max-height: 100px;
+}
+
+.home-banner-img-container {
+  width: 85%;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-banner-img-container .home-banner-img {
+  position: relative;
+  background: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), url(../assets/img/home-hero\ \(1\).jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1500px;
+  height: 370px;
+}
+.home-banner-img-container .home-banner-img .banner-text-container {
+  position: absolute;
+  left: 70%;
+  top: 35%;
+}
+.home-banner-img-container .home-banner-img .banner-text-container .banner-text1 {
+  font-size: 18px;
+  font-family: segoeuiBold;
+  color: white;
+}
+.home-banner-img-container .home-banner-img .banner-text-container .banner-text2 {
+  font-size: 10px;
+  font-family: segoeuiRegular;
+  color: white;
+  margin-top: 3px;
 }

@@ -9,7 +9,7 @@ function route() {
 
 function initSite() {
   $(window).on("hashchange", route);
-  route();
+  route(); 
 }
 
 export function loadBooks() {
@@ -24,8 +24,9 @@ export function loadBooks() {
           </div>
           <div class="bookText">
               <h4>${book.desc}</h4>
+              
               <p>$${book.price}</p>
-             <span id="p${book.id}">Buy Now!</span>
+             <span id="p${book.id}">ADD TO CART</span>
           </div>
         </div>
       `);
@@ -43,7 +44,7 @@ export function loadFeaturedBooks() {
          <img class="${book.imgClass}" src="${book.img}" alt="${book.desc}"> 
         </div>
           <h4>${book.desc}</h4>
-          <span id="p${book.id}">Buy Now!</span>
+          <span id="p${book.id}">ADD TO CART</span>
           <p>$${book.price}</p>
         </div>
       `);
@@ -56,4 +57,6 @@ function initListeners() {}
 $(document).ready(function () {
   initSite();
   initListeners();
-});
+  //added this so when the page loads it loades homepage first I wanted to see it so  I can make the image banner
+  changePage("home");
+}); 
