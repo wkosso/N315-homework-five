@@ -7,47 +7,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MVC Example</title>
   <link rel="stylesheet" href="css/styles.css">
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
 </head>
 
 <body>
 
   <nav>
+
+    <div class="logo-container">
     <div class="logo">
       <a href="#home">
-        <img src="#" alt="BookIcon">
-        The BookNook
+        <img src="./assets/img/books-stack-of-three.png" alt="BookIcon" class="logo-img">
+       
+        <div class="logo-title">The BookNook</div>
+        
       </a>
     </div>
+  </div>
 
+    <div class="search-container">
     <div class="searchBar">
       <span id="searchBar">
-
+        <i class="fa-solid fa-magnifying-glass"></i>
+        Search...
       </span>
     </div>
+  </div>
 
 
     <div class="links">
       <ul>
-        <li><a href="#home">Home</a></li>
+        <li><a href="#home" style="font-weight: bold; color:#707070;">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#books">Books</a></li>
         <li><a href="#contact">Blog</a></li>
-        <li><a href="#account">Account <img src="#" alt="AccountIcon"></a></li>
-        <li><a href="#cart">Cart <img src="#" alt="CartIcon"></a></li>
+        <li><a href="#account">Account <i class="fa-regular fa-user"></i></a></li>
+        <li><a href="#cart">Cart<i class="fa-solid fa-cart-shopping"></i></a></li>
       </ul>
     </div>
+   
   </nav>
-
-<footer>
-  <p>Lorem ipsum dolor sit.</p>
-  <p>Soluta, laboriosam? Voluptatum, sint?</p>
-  <p>Iste perspiciatis voluptatem recusandae.</p>
-</footer>
+  <div class="nav-border"></div>
 
 
-<div class="footer">
 
-</div>
+
+
+
+<!-- <div class="footer-container"> -->
+  <footer class="footer-container">
+    <p class="copyright-text">Copyright 2022, The BookNook</p>
+    <div class="footer-links"> <a href="#">Home</a><a href="#">About</a><a href="#">Books</a><a href="#">Blog</a></div>
+   
+    <div class="footer-icons">
+    <i class="fa-brands fa-square-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+  </div>
+  </footer>
+
 
   <script src="lib/jquery-3.7.1.min.js"></script>
   <script type="module" src="app/app.js"></script>

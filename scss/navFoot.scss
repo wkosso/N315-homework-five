@@ -1,15 +1,93 @@
 nav {
   //INSERT NAV STYLING HERE
+  background-color: white;
+width: 100%;
+height: 108px;
+
+.logo-container{
+
+  width: 50%;
+  
   .logo{
+    width: 50%;
+  
+padding-left: 20px;
+    
+  .logo-img {  
+
+    width: 73px;
+    height: 73px;
+    
+
+  }
     a {
+width: 201px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      
         color: $siteBlue;
         text-decoration: none;
+       color:$siteGrey;
+
+      
+      .logo-title{
+        
+        color: black;
+        font-size: 16px;
+        font-family:  segoeuiRegular;
+      }
     }
+
+  
 }
+
+}
+
+.search-container{
+display: flex;
+align-items: center;
+justify-content: center;
+
+  width: 100%;
+ 
+.searchBar{
+  width: 85%;
+  height: 40px;
+ background-color: rgba(88, 124, 131, 0.6);;
+ border:$siteGrey;
+padding: 7px;
+
+ 
+  .fa-solid{
+    color:rgba(88, 124, 131, 0.6);
+    font-size: 20px;
+  }
+
+  #searchBar{
+    width: 58px;
+    height: 45px;
+color: rgba(0, 0, 0, 0.45);
+font-size: 14px;
+font-family:  segoeuiRegular;
+
+  }
+}
+
+}
+
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+
+  .links{
+
+  width: 100%;
+
   ul {
+    width: 98%;
+   // background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -21,15 +99,87 @@ nav {
     }
     a{
         text-decoration: none;
-        color: $siteBlue;
+        color: black;
+        font-size: 16px;
+font-family:  segoeuiRegular;
     }
   }
+
+
+
 }
 
-footer {
+}
+
+.nav-border{
+  border: none;                   
+  border-top: 1px solid black;   
+  width: 100%;
+
+   
+}
+
+.footer-container {
+width: 100%;
+height: 92px;
+  margin-top: 100px;
   //INSERT FOOTER STYLING
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: red;
+  background-color: $siteBlue;
+
+  .copyright-text{
+    
+    width: 20%;
+    font-size: 16px;
+    font-family:  segoeuiRegular;
+    color: white;
+  }
+  .footer-links {
+
+    width: 20%;
+
+    height: 37px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  }
+
+  .footer-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family:  segoeuiRegular;
+  }
+
+
+  .footer-icons{
+    
+width: 10%;
+height: 50px;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+    .fa-square-facebook{
+      color: white;
+      font-size: 24px;
+    }
+
+    .fa-instagram{
+      color: white;
+      font-size: 24px;
+    }
+
+    .fa-twitter{
+      color: white;
+      font-size: 24px;
+    }
+
+  }
+
 }
