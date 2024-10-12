@@ -221,3 +221,54 @@ nav .links ul a {
   color: white;
   margin-top: 3px;
 }
+
+.about-section {
+  width: 100%;
+}
+.about-section .about-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-section .about-section-container .about-img-container {
+  margin-top: 100px;
+  width: 23%;
+}
+.about-section .about-section-container .about-img-container .about-img {
+  background-image: url(../assets/img/about-photo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 398px;
+}
+.about-section .about-section-container .about-img-container .about-img2 {
+  background-image: url(../assets/img/about-photo-two.jpg);
+}
+
+.about-info-container {
+  width: 65%;
+  margin-bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.about-info-container .about-title {
+  font-size: 20px;
+  font-family: segoeuiBold;
+  margin-bottom: 20px;
+}
+.about-info-container .about-mini-title {
+  font-size: 15px;
+  font-family: segoeuiBold;
+  margin-bottom: 30px;
+}
+.about-info-container .about-text {
+  font-size: 12px;
+  font-family: segoeuiRegular;
+  font-weight: bold;
+  text-align: left;
+  width: 98%;
+  height: 120px;
+  margin-bottom: 30px;
+}

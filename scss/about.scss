@@ -1,0 +1,77 @@
+.about-section{
+
+    width: 100%;
+
+
+    .about-section-container{
+
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+
+        .about-img-container{
+            margin-top: 100px;
+           // padding-left: 30px;
+width: 23%;
+            .about-img{
+                background-image: url(../assets/img/about-photo.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+
+height: 398px;
+            }
+
+            
+        .about-img2{
+            background-image: url(../assets/img/about-photo-two.jpg);
+        }
+        }
+   
+
+       
+
+    }
+}
+
+.about-info-container{
+
+width: 65%;
+margin-bottom: 70px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+    .about-title{
+        font-size: 20px;
+        font-family: segoeuiBold;
+margin-bottom: 20px;
+//background-color: aqua;            
+    }
+
+    .about-mini-title{
+        font-size: 15px;
+        font-family: segoeuiBold ;
+    margin-bottom: 30px;
+    }
+
+    .about-text{
+        font-size: 12px;
+            font-family: segoeuiRegular ;
+            font-weight: bold;
+            text-align: left;
+            width: 98%;
+            height: 120px;
+            
+            
+         margin-bottom: 30px;
+        
+        
+    }
+}
+
+
+
+
