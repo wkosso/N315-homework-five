@@ -1,0 +1,132 @@
+.blog-maincontainer{
+
+    .blog-box{
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        width: 80%;
+background-color: $siteBlue;
+height: 320px;
+margin: auto;
+margin-top: 80px;
+
+
+
+.first-blog-img-container{
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 50%;
+
+.blogbook-img-one-container{
+    width: 45%;
+
+    
+   
+        .blogbook-img-one{
+background-image: url(../assets/img/books/becoming.jpg);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+
+height: 200px;
+
+        }
+
+
+        .blogimg-two{
+            background-image: url(../assets/img/books/finding\ me.jpg);
+            
+        }
+        }
+
+
+
+    
+
+
+
+       
+
+  
+
+}
+.second-blog-img-container{
+    
+    width: 50%;
+    height: 320px;
+            .blog-book2-container{
+             
+            
+    
+    
+            .bloogbook-two{
+                background-image: url(../assets/img/open-book-blog.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 320px;
+            }
+            .bloogthree{
+                background-image: url(../assets/img/ereading-blog.jpg);
+            }
+        }
+
+       
+        }
+
+       
+}
+
+        .blog-text-container{
+            width: 50%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: column;
+//background-color: indianred;
+min-height: 300px;
+            .blog-title{
+                font-size: 18px;
+                font-family: segoeuiBold ;
+                color: white;
+                margin-top: 20px;
+            }
+
+            .blog-text{
+                font-size: 12px;
+                font-family: segoeuiRegular;
+                color: white;
+                width: 60%;
+                height: 80px;
+                text-align: center;
+                //background-color: rebeccapurple;
+            }
+
+            .blog-btn{
+                width: 30%;
+                height: 50px;
+                background-color: $siteBlue;
+                border: white solid 1px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 12px;
+                font-family: segoeuiRegular;
+                color: white;
+                
+            }
+        }
+    }
+
+
+.blog-box2{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   
+   
+}
