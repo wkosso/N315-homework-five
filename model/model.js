@@ -184,6 +184,8 @@ export function blogListener(){
 }
 
 
+
+
 //funtion to retrieve the sign up info
 function validateSignupForm() {
 
@@ -319,11 +321,13 @@ export function changePage(pageName) {
       }
 
 //if statement for the blog
-      if(pageName === "blog") {
-        
-        blogListener();
-        
-    }
+
+if (pageName === "blog") {
+
+   
+    blogListener();
+
+}
 
     //if statement for  acount
     if(pageName === "account") {
