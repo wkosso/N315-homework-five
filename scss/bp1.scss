@@ -1,25 +1,135 @@
 .blogone-container{
 
-    width: 100%;
-background-color: red;
+    max-width: 100%;
+
+
+
     .blogone-banner-box{
-width: 100%;
+        margin-top: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+
 
 .blogone-bannerimg{
     background: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), 
-    url(../assets/img/books/mlk-biography.jpg);
+    url(../assets/img/february-favorites-hero.jpg);
     background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
      height: 320px;
      width: 80%;
+
+
+
+     .blogone-bannertextbox{
+
+        width: 100%;
+        min-height: 150px;
+       // background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+      margin-top: 60px;
+        
+        
+        .blogoneheader{
+            font-size: 18px;
+            font-family: segoeuiBold ;
+            color: white;
+            
+        }
+
+        .blogonemini-header{
+            font-size: 13px;
+                font-family: segoeuiBold;
+                color: white;
+                
+        }
+         
+        .blogone-quote{
+            font-size: 10px;
+            font-family: segoeuiBold;
+            color: white;
+        }
+        }
+    }
 }
+
+.bp1-flexbox{
+  
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 90%;
+
+min-height: 100px;
+margin: auto;
+margin-top: 80px;
+.blog1-image-container{
+    position: relative;
+    width: 27%;
+
+
+    .blog1-image{
+       
+        background-image: url(../assets/img/books/becoming.jpg);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+height: 200px;
+
+
 
     }
 
-
+    .blog1-image2{
+        background-image: url(../assets/img/books/finding\ me.jpg);
+    }
 }
 
-h1{
-    background-color: indianred;
+
+
+.blog1-bookcontainer{
+   
+    
+
+width: 95%;
+    .blog1-title{
+        font-size: 15px;
+    font-family: segoeuiBold ;
+    margin-bottom: 30px;
+    position: absolute;
+left: 23%;
+    }
+    
+    .blog1-text-container{
+        margin-top: 40px;
+width: 100%;
+height: 170px;
+
+        .blog1-text{
+width: 98%;
+
+
+font-family: segoeuiBold ;
+font-size: 10px;
+
+margin-bottom: 20px;
+        }
+
+
+        
+
+    }
 }
+
+
+
+}
+    }
+
+
+
+
