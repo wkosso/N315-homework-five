@@ -352,6 +352,10 @@ nav .links ul a {
   color: white;
   cursor: pointer;
 }
+.blog-maincontainer .blog-text-container .blog-btn a {
+  text-decoration: none;
+  color: white;
+}
 
 .blog-box2 {
   display: flex;
@@ -404,4 +408,5 @@ nav .links ul a {
   justify-content: center;
   margin-top: 18px;
   cursor: pointer;
+  border: none;
 }

@@ -17,6 +17,6 @@
     "sass": "^1.78.0"
   },
   "dependencies": {
-    "sweetalert2": "^11.14.2"
+    "sweetalert2": "^11.14.3"
   }
 }

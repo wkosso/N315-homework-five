@@ -57,6 +57,5 @@ function initListeners() {}
 $(document).ready(function () {
   initSite();
   initListeners();
-  //added this so when the page loads it loades homepage first I wanted to see it so  I can make the image banner
-  changePage("home");
+
 }); 
