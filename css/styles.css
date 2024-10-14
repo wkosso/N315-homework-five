@@ -309,6 +309,46 @@ nav .links ul a {
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 768px) {
+  .about-section .about-section-container {
+    width: 100%;
+  }
+  .about-section .about-section-container .about-img-container {
+    padding: 15px;
+    width: 40%;
+    height: 350px;
+  }
+  .about-info-container .about-title {
+    font-size: 12px;
+  }
+  .about-info-container .about-mini-title {
+    font-size: 8px;
+  }
+  .about-info-container .about-text {
+    font-size: 11px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* Apply scale to resize the image */
+  .about-section-container .about-img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+    transform: scale(0.6);
+  }
+  .about-info-container {
+    width: 40%;
+  }
+  .about-info-container .about-title,
+  .about-info-container .about-mini-title,
+  .about-info-container .about-text {
+    font-size: 6px;
+    text-align: center;
+  }
+}
 .blog-maincontainer .blog-box {
   display: flex;
   align-items: center;
