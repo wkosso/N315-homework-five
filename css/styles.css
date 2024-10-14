@@ -162,29 +162,57 @@ nav .links ul a {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+@media (max-width: 1250px) {
+  #bookDiv {
+    flex-direction: column;
+  }
+  #bookDiv .book {
+    width: 80%;
+  }
+  #bookDiv .book .bookText {
+    min-width: 250px;
+    padding-left: 20px;
+  }
+}
 #bookDiv .book {
   width: 30%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  height: 400px;
 }
-#bookDiv .book h4 {
+#bookDiv .book .bookText {
+  width: 200px;
+}
+#bookDiv .featuredBook {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 300px;
+}
+#bookDiv .cartButton {
+  padding: 20px;
+  margin-top: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid gray;
+}
+#bookDiv h4 {
   font-size: 12px;
   font-family: segoeuiRegular;
   font-weight: normal;
 }
-#bookDiv .book p {
+#bookDiv p {
   font-size: 14px;
   font-family: segoeuiBold;
 }
-
-.squareImg {
-  width: 100px;
+#bookDiv .squareImg {
+  width: 150px;
 }
-
-.rectangleImg {
-  max-width: 100px;
-  max-height: 100px;
+#bookDiv .rectangleImg {
+  max-width: 150px;
+  max-height: 200px;
 }
 
 .home-banner-img-container {

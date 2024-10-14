@@ -3,20 +3,50 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
+
+       
+@media (max-width: 1250px) {
+    flex-direction: column;
+    .book {
+        width: 80%;
+        .bookText{
+            min-width: 250px;
+            padding-left: 20px;
+        }
+    }
+}
+
     .book{
     width: 30%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    height: 400px;
+
+    .bookText {
+        width: 200px;
+        // height: 1000px;
+    }
+    }
+
+    .featuredBook{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .cartButton {
+        padding: 20px;
+        // background-color: gray;
+        margin-top: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: 2px solid gray;
+    }
 
 
-
-
-
-
-
-   //added some style to the heading
     h4{
         font-size: 12px;
         font-family: segoeuiRegular;
@@ -32,21 +62,19 @@
         
     }
 
-    
-
-}
-    }
-
-    .squareImg{
-        width: 100px;
+.squareImg{
+        width: 150px;
       
     }
     .rectangleImg {
-        max-width: 100px;
-        max-height: 100px;
+        max-width: 150px;
+        max-height: 200px;
        
     }
-    
+
+
+}
+
     
 
 

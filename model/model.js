@@ -146,7 +146,16 @@ export function signOut() {
 
 export function addToCart() {
   $(".signInOut .count").html(++cartCount);
+  let books = getBooks();
+  let selectedBook = books.find(book => book.id === bookId);
+
+if (selectedBook) {
+  cartItems.push(selectedBook);
+  updateCart();
 }
+
+}
+
 
 
 
@@ -182,6 +191,7 @@ export function blogListener(){
     }
   });
 }
+  
 
 
 
