@@ -124,7 +124,8 @@ nav .links ul a {
   color: white;
 }
 .footer-container .footer-links {
-  width: 20%;
+  width: 30%;
+  min-width: 250px;
   height: 37px;
   display: flex;
   align-items: center;
@@ -138,6 +139,7 @@ nav .links ul a {
 }
 .footer-container .footer-icons {
   width: 10%;
+  min-width: 100px;
   height: 50px;
   display: flex;
   align-items: center;
@@ -313,6 +315,7 @@ nav .links ul a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  min-width: 500px;
   width: 80%;
   background-color: #587C83;
   height: 320px;
@@ -429,8 +432,13 @@ nav .links ul a {
   border-bottom: 1px solid #000000;
   font-family: segoeuiRegular;
   font-size: 10px;
-  width: 25%;
+  width: 250px;
   margin-bottom: 20px;
+}
+@media (max-width: 750px) {
+  .account-container .login-box input[type=text] {
+    flex-direction: column;
+  }
 }
 .account-container .login-box .login-btn {
   width: 18%;
