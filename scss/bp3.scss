@@ -16,6 +16,7 @@ margin-top: 60px;
 
 
 
+
     .blogtwo-bannerimg {
       
         background: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), 
@@ -28,6 +29,8 @@ margin-top: 60px;
         width: 80%;
        
         
+      
+
     
     .blogtwo-bannertextbox{
 
@@ -51,12 +54,35 @@ margin-top: 60px;
             font-family: segoeuiBold;
             color: white;
         }
+
+
+
+
     }
 
-}
-    
+  
 
+}
+
+
+.blogthree-bannerimg{
+      
+    background: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), 
+    url(../assets/img/eread-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  
+}
+
+
+  
   }
+
+
+
 .blog2-section2{
   
 margin: auto;
@@ -81,6 +107,13 @@ margin-top: 80px;
     border: solid 1px $siteGrey;
     
 }
+
+
+.blog3-img{
+    background-image: url(../assets/img/ereading-blog.jpg);
+}
+
+
     }
 
 .blog2-textContainer{
@@ -103,9 +136,4 @@ margin-bottom: 18px;
 
 
 }
-
-
-   
-  
-  
 

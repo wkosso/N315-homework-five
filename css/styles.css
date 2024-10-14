@@ -497,7 +497,152 @@ nav .links ul a {
   margin-bottom: 20px;
 }
 
-.blogone-container .blogone-banner-box .blogtwo-bannerimg {
+.blogone-container {
+  max-width: 100%;
+}
+.blogone-container .blogtwo-banner-box {
+  margin: 0 auto;
+  width: 95%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.blogone-container .blogtwo-banner-box .blogtwo-bannerimg {
   background: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), url(../assets/img/book-club-hero.jpg);
   background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 320px;
+  width: 80%;
+}
+.blogone-container .blogtwo-banner-box .blogtwo-bannerimg .blogtwo-bannertextbox {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.blogone-container .blogtwo-banner-box .blogtwo-bannerimg .blogtwo-bannertextbox .blogtwoheader {
+  font-size: 18px;
+  font-family: segoeuiBold;
+  color: white;
+}
+.blogone-container .blogtwo-banner-box .blogtwo-bannerimg .blogtwo-bannertextbox .blogtwomini-header {
+  font-size: 13px;
+  font-family: segoeuiBold;
+  color: white;
+}
+.blogone-container .blog2-section2 {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  margin-top: 80px;
+}
+.blogone-container .blog2-section2 .blog2-img-container {
+  width: 60%;
+  margin-left: 88px;
+}
+.blogone-container .blog2-section2 .blog2-img-container .blog2-img {
+  background-image: url(../assets/img/open-book-blog.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 280px;
+  border: solid 1px #707070;
+}
+.blogone-container .blog2-section2 .blog2-textContainer {
+  width: 100%;
+}
+.blogone-container .blog2-section2 .blog2-textContainer .blog2text {
+  width: 100%;
+  font-family: segoeuiRegular;
+  font-size: 11px;
+  margin-bottom: 18px;
+}
+
+.blogone-container {
+  max-width: 100%;
+}
+.blogone-container .blogtwo-banner-box {
+  margin: 0 auto;
+  width: 95%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.blogone-container .blogtwo-banner-box .blogtwo-bannerimg {
+  background: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), url(../assets/img/book-club-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 320px;
+  width: 80%;
+}
+.blogone-container .blogtwo-banner-box .blogtwo-bannerimg .blogtwo-bannertextbox {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.blogone-container .blogtwo-banner-box .blogtwo-bannerimg .blogtwo-bannertextbox .blogtwoheader {
+  font-size: 18px;
+  font-family: segoeuiBold;
+  color: white;
+}
+.blogone-container .blogtwo-banner-box .blogtwo-bannerimg .blogtwo-bannertextbox .blogtwomini-header {
+  font-size: 13px;
+  font-family: segoeuiBold;
+  color: white;
+}
+.blogone-container .blogtwo-banner-box .blogthree-bannerimg {
+  background: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), url(../assets/img/eread-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.blogone-container .blog2-section2 {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  margin-top: 80px;
+}
+.blogone-container .blog2-section2 .blog2-img-container {
+  width: 60%;
+  margin-left: 88px;
+}
+.blogone-container .blog2-section2 .blog2-img-container .blog2-img {
+  background-image: url(../assets/img/open-book-blog.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 280px;
+  border: solid 1px #707070;
+}
+.blogone-container .blog2-section2 .blog2-img-container .blog3-img {
+  background-image: url(../assets/img/ereading-blog.jpg);
+}
+.blogone-container .blog2-section2 .blog2-textContainer {
+  width: 100%;
+}
+.blogone-container .blog2-section2 .blog2-textContainer .blog2text {
+  width: 100%;
+  font-family: segoeuiRegular;
+  font-size: 11px;
+  margin-bottom: 18px;
 }
