@@ -142,3 +142,95 @@ min-height: 300px;
 
 
 
+
+//media query for ipad 
+@media screen and (max-width: 768px) {
+
+    .blog-maincontainer{
+    
+    .blog-box{
+        width: 100%;
+    
+        
+    
+     .first-blog-img-container {
+    
+    width: 60%;
+    
+    
+        .blogbook-img-one-container{
+    width: 20%;
+            .blogbook-img-one{}
+    
+        }
+    
+    
+    
+     }
+    
+    
+    
+       .blog-title{
+        font-size: 12px
+       }
+    
+       .blog-text{
+        width: 90%;
+        font-size: 11px;
+    
+       }
+    
+    
+       .blog-text-container .blog-btn{
+        width: 50%;
+       }
+    }
+    
+    }
+    }
+    
+    
+    ////media query for phone
+    @media screen and (max-width: 600px) {
+        log-maincontainer{
+    
+            .blog-box{
+                width: 100%;
+            
+                
+            
+             .first-blog-img-container {
+            
+            width: 60%;
+            
+            
+                .blogbook-img-one-container{
+            width: 20%;
+                    .blogbook-img-one{}
+            
+                }
+            
+            
+            
+             }
+            
+            
+            
+               .blog-title{
+                font-size: 6px
+               }
+            
+               .blog-text{
+                width: 90%;
+                font-size: 6px;
+            
+               }
+            
+            
+               .blog-text-container .blog-btn{
+                width: 50%;
+               }
+            }
+            
+            }
+    }

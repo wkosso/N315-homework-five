@@ -443,6 +443,48 @@ nav .links ul a {
   justify-content: space-evenly;
 }
 
+@media screen and (max-width: 768px) {
+  .blog-maincontainer .blog-box {
+    width: 100%;
+  }
+  .blog-maincontainer .blog-box .first-blog-img-container {
+    width: 60%;
+  }
+  .blog-maincontainer .blog-box .first-blog-img-container .blogbook-img-one-container {
+    width: 20%;
+  }
+  .blog-maincontainer .blog-box .blog-title {
+    font-size: 12px;
+  }
+  .blog-maincontainer .blog-box .blog-text {
+    width: 90%;
+    font-size: 11px;
+  }
+  .blog-maincontainer .blog-box .blog-text-container .blog-btn {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  log-maincontainer .blog-box {
+    width: 100%;
+  }
+  log-maincontainer .blog-box .first-blog-img-container {
+    width: 60%;
+  }
+  log-maincontainer .blog-box .first-blog-img-container .blogbook-img-one-container {
+    width: 20%;
+  }
+  log-maincontainer .blog-box .blog-title {
+    font-size: 6px;
+  }
+  log-maincontainer .blog-box .blog-text {
+    width: 90%;
+    font-size: 6px;
+  }
+  log-maincontainer .blog-box .blog-text-container .blog-btn {
+    width: 50%;
+  }
+}
 .account-container {
   width: 100%;
   display: flex;
