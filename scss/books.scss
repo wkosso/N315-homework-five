@@ -1,4 +1,4 @@
-#bookDiv {
+#bookDiv, #cartDiv {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -75,7 +75,13 @@
 
 }
 
-    
 
-
-
+#cartDiv {
+    .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        text-decoration: underline;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}

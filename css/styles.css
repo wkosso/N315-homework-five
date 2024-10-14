@@ -156,35 +156,35 @@ nav .links ul a {
   font-size: 24px;
 }
 
-#bookDiv {
+#bookDiv, #cartDiv {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 @media (max-width: 1250px) {
-  #bookDiv {
+  #bookDiv, #cartDiv {
     flex-direction: column;
   }
-  #bookDiv .book {
+  #bookDiv .book, #cartDiv .book {
     width: 80%;
   }
-  #bookDiv .book .bookText {
+  #bookDiv .book .bookText, #cartDiv .book .bookText {
     min-width: 250px;
     padding-left: 20px;
   }
 }
-#bookDiv .book {
+#bookDiv .book, #cartDiv .book {
   width: 30%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   height: 400px;
 }
-#bookDiv .book .bookText {
+#bookDiv .book .bookText, #cartDiv .book .bookText {
   width: 200px;
 }
-#bookDiv .featuredBook {
+#bookDiv .featuredBook, #cartDiv .featuredBook {
   width: 30%;
   display: flex;
   align-items: center;
@@ -192,27 +192,35 @@ nav .links ul a {
   flex-direction: column;
   width: 300px;
 }
-#bookDiv .cartButton {
+#bookDiv .cartButton, #cartDiv .cartButton {
   padding: 20px;
   margin-top: 25px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border: 2px solid gray;
 }
-#bookDiv h4 {
+#bookDiv h4, #cartDiv h4 {
   font-size: 12px;
   font-family: segoeuiRegular;
   font-weight: normal;
 }
-#bookDiv p {
+#bookDiv p, #cartDiv p {
   font-size: 14px;
   font-family: segoeuiBold;
 }
-#bookDiv .squareImg {
+#bookDiv .squareImg, #cartDiv .squareImg {
   width: 150px;
 }
-#bookDiv .rectangleImg {
+#bookDiv .rectangleImg, #cartDiv .rectangleImg {
   max-width: 150px;
   max-height: 200px;
+}
+
+#cartDiv .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: underline;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .home-banner-img-container {

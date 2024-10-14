@@ -1,10 +1,10 @@
 // import Swal from "sweetalert2";
-import { loadBooks, loadFeaturedBooks } from "../app/app.js";
+import { loadBooks, loadFeaturedBooks, updateCart } from "../app/app.js";
 export var userSignedIn = false;
 
 var cartCount = 0;
 
-var cartItems = [];
+
 
 var books = [
   {
@@ -144,17 +144,7 @@ export function signOut() {
   return userSignedIn;
 }
 
-export function addToCart() {
-  $(".signInOut .count").html(++cartCount);
-  let books = getBooks();
-  let selectedBook = books.find(book => book.id === bookId);
 
-if (selectedBook) {
-  cartItems.push(selectedBook);
-  updateCart();
-}
-
-}
 
 
 
@@ -192,8 +182,6 @@ export function blogListener(){
   });
 }
   
-
-
 
 
 //funtion to retrieve the sign up info
@@ -328,6 +316,8 @@ export function changePage(pageName) {
         loadBooks();
       } else if (pageName == "home") {
         loadFeaturedBooks();
+      } else if (pageName == "cart") {
+        updateCart();
       }
 
 //if statement for the blog
